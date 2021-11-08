@@ -1,0 +1,34 @@
+:root {
+    --color-temaRosa: #ebc9f4;
+    --color-temaAzul: #97d3ef;
+    --color-temaNegro: #1a181b;
+    --color-temaAmarillo: #f6feaa;
+    --color-temaMostaza: #fce694;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background-color: var(--color-temaMostaza);
+    color: var(--color-temaNegro);
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-temaNegro);
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.center {
+    text-align: center;
+    vertical-align: center;
+}
